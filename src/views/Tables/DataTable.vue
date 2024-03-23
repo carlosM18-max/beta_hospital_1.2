@@ -141,7 +141,7 @@ export default {
         { label: 'prioridad', key: 'prioridad', class: 'text-left' },
         { label: 'fecha_de_la_solicitud', key: 'fecha_de_la_solicitud', class: 'text-left' },
         { label: 'dias_espera', key: 'dias_espera', class: 'text-left' },
-        { label: 'estatus', key: 'estatus', class: 'text-left', sortable: true }, // Hacer la columna "estatus" sortable
+        { label: 'estatus', key: 'estatus', class: 'text-left', sortable: true }, // Columna "estatus" sortable
         { label: 'Sort', key: 'sort', class: 'text-left' },
         { label: 'Remove', key: 'remove', class: 'text-center' }
       ],
@@ -154,7 +154,7 @@ export default {
           Tipo_organo: 'Corazon',
           prioridad: 'Urgente',
           fecha_de_la_solicitud: '12/05/2020',
-          dias_espera: '10',
+          dias_espera: '120',
           estatus: 'grave',
           editable: false
         },
@@ -182,7 +182,6 @@ export default {
           estatus: 'critico', 
           editable: false
         },
-        // Puedes añadir más objetos de fila si es necesario
       ]
     }
   }

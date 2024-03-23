@@ -3,7 +3,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 /* Layouts */
 import Layout1 from '../layouts/Layout1.vue'
 
-
 /* Dashboards View */
 import Dashboard2 from '../views/Dashboards/Dashboard2.vue'
 import Dashboard1 from '../views/Dashboards/Dashboard1.vue'
